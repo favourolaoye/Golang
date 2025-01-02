@@ -23,7 +23,10 @@ func main()  {
 	fmt.Scan(&userTickets);
 	
 	fmt.Printf("%v you just booked %v tickets!\n", userName, userTickets)
-	// ticketsLeft = ticketsLeft - userTickets
+
+	ticketsLeft = ticketsLeft - userTickets
+
+	fmt.Printf("%v tickets remaining to be booked!\n", ticketsLeft)
 
 }
   
